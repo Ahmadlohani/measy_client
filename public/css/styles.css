@@ -1,0 +1,178 @@
+* {
+	font-family: "JetBrains Mono", monospace;
+	max-width: 100%;
+}
+body {
+	background-color: black !important;
+}
+
+.navactive {
+	border-bottom: 5px solid #ff3131;
+}
+#togg {
+	color: white;
+}
+.pointer {
+	cursor: pointer;
+}
+#nav-dropdown {
+	color: white;
+	font-weight: bold;
+	background-color: #ff3131;
+}
+#nav-dropdown:hover {
+	color: red !important;
+	font-weight: bold;
+	background-color: white !important;
+}
+.roleBtn:hover {
+	color: red !important;
+	font-weight: bold;
+	background-color: white !important;
+}
+#slider {
+	background-image: url("../images/slider.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: fixed;
+	height: 700px;
+	position: relative;
+	color: white;
+}
+.bottom-left {
+	position: absolute;
+	bottom: 15px;
+}
+#timer {
+	margin-top: -80px;
+}
+#productImg {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+}
+#footer {
+	background-color: rgb(17, 13, 13);
+}
+.grow {
+	-moz-osx-font-smoothing: grayscale;
+	backface-visibility: hidden;
+	transform: translateZ(0);
+	transition: transform 0.25s ease-out;
+}
+
+.img-hover-zoom {
+	overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom .grow {
+	transition: transform 0.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover .grow {
+	transform: scale(1.5);
+}
+.teamCard {
+	border-color: 1px solid #121733 !important;
+	background-color: #000000 !important;
+}
+.headingBorder::after {
+	content: ""; /* This is necessary for the pseudo element to work. */
+	display: block; /* This will put the pseudo element on its own line. */
+	margin: 0 auto; /* This will center the border. */
+	width: 5%; /* Change this to whatever width you want. */
+	padding-top: 20px; /* This creates some space between the element and the border. */
+	border-bottom: 5px solid red; /* This creates the border. Replace black with whatever color you want. */
+}
+#contactBtn {
+	background-color: #ff3131;
+	color: white;
+}
+.blanks {
+	height: 55px !important;
+	border-radius: 10px !important;
+	background: #232323 !important;
+	color: gray !important;
+	border: #232323 !important;
+	margin-bottom: 10px !important;
+}
+
+.enquiryBox {
+	height: 100px !important;
+	border: #232323 !important;
+	border-radius: 10px !important;
+	background: #000000 !important;
+	margin-bottom: 10px !important;
+	border-bottom: 1px solid #a22020 !important;
+}
+/* .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: #ff3131 !important;
+	background-color: #1f51ff !important;
+} */
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	color: white !important;
+	background-color: #ff3131 !important;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link:hover {
+	color: #ff3131 !important;
+	background-color: white !important;
+}
+
+.nav-link {
+	color: white !important;
+}
+.nav-pills .nav-link.active {
+	color: #fff !important;
+	background-color: red !important;
+}
+.nav-pills .nav-link:hover {
+	color: red !important;
+	background-color: #fff !important;
+}
+
+#allProd:hover {
+	color: #ff3131 !important;
+	font-weight: bold;
+	background-color: white !important;
+}
+.parallelogram {
+	transform: skew(175deg);
+}
+.sliderImg {
+	width: 100%;
+	height: 65px;
+}
+#centerImageText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.regImg {
+	background-image: url("../images/coming.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 200px;
+	margin: 10px 0px !important;
+}
+#stripeBtn {
+	padding: 15px 255px;
+	margin: 15px 0px;
+	color: white;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: gray;
+}
+#thankCont {
+	margin: 50px 0px !important;
+	height: 500px !important;
+}
